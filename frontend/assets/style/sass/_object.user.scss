@@ -63,3 +63,17 @@
     transform:translateY(-15px);
   }
 }
+
+.profile{
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+
+  img{
+    display: block;
+    width:100%;
+  }
+}

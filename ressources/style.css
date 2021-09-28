@@ -1341,6 +1341,19 @@ button.remodal-close {
   transform: translateY(-15px);
 }
 
+.profile {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+}
+.profile img {
+  display: block;
+  width: 100%;
+}
+
 .forum__content {
   margin-top: 2em;
   flex-direction: row-reverse;
