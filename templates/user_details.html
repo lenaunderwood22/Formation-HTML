@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+	<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Liste des sujets | Django Forum</title>
+	<link rel="stylesheet" type="text/css" href="../ressources/style.css"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
+
+	<meta name="author" content="Axel Cardinaels"/>
+	<meta name="contact" content="hello@axel-cardinaels.be" />
+	<meta name="copyright" content="Copyright (c) 2021 Django Forum Tous droits réservés." />
+	<link rel="icon" type="image/png" href="../img/favicon/favicon.png" />
+	<meta name="description" content="Django Forum, un tutorial Django"/>
+
+	<!--FAVICON -->
+	<link rel="icon" href="/img/favicon/favicon.png">
+
+	<meta property="og:title" content="Django Forum" />
+	<meta property="og:image" content="../img/share-header.jpg" />
+	<meta property="og:description" content="Django Forum, description Sociale" />
+</head>
+<body>
+
+  <header class="header">
+		<div class="header__upper header__upper--user column column--spaced column--centered wrapper--main">
+	    <a href="index.html" title="Retourner à la page d’accueil" class="header__logo">Django Forum</a>
+
+      <form class="header__search">
+        <input type="text" class="search__input" placeholder="Rechercher un sujet ..."/>
+        <div class="search__submit">
+          <input type="submit" value="Rechercher">
+          <span class="submit__icon">
+            <img src="../img/search.svg" alt="Image rechercher" />
+          </span>
+        </div>
+      </form>
+	    <nav class="header__menu">
+	      <span class="hide">Menu de navigation</span>
+	      <ul class="menu__list column column--centered">
+
+	        <li>
+	          <a href="topics_list.html" title="Aller à la page des sujets">Sujets</a>
+	        </li>
+
+	        <li>
+	          <a href="register.html" title="Aller à la page d'inscription">Inscription</a>
+	        </li>
+
+	        <li>
+	          <a href="login.html" title="Aller à la page de connexion">Connexion</a>
+	        </li>
+
+	        <li>
+	          <a href="user_details.html" title="Afficher mon profil">
+	            <img src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." class="menu__profile"/>
+	          </a>
+	        </li>
+	      </ul>
+	    </nav>
+		</div>
+
+		<div class="header__content header__content--user">
+			<span class="banner--user">
+			</span>
+
+			<a href="user_edit.html" class="btn btn--primary btn--small user__edit" title="Editer mon profil">Editer mon profil</a>
+
+			<div class="user__header section--centered">
+				<div class="picture__container picture__container--detail">
+					<img class="author__picture author__picture--detail" src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." />
+				</div>
+
+
+				<h1 class="title--header">Axel Cardinaels</h1>
+				<p class="subtitle--user">Inscrit le 05 Août 2021 - 203 Messages</p>
+				<div>
+					<span class="author__rank author__rank--detail">Vétéran</span>
+				</div>
+
+			</div>
+		</div>
+  </header>
+
+
+
+	<main class="page__content">
+		<section class="wrapper--topics wrapper--centered">
+			<h2 class="title--section">Les 18 sujets créés par Axel Cardinaels</h2>
+			<ul class="topics__list topics__list--user">
+				<li class="topic__item card item__wrap">
+					<a href="topic_details.html" title="Afficher le sujet ...">
+						<span class="hide">Afficher le sujet ...</span>
+					</a>
+
+					<article class="topic__article">
+						<h3 class="title--topic">La programmation peut-elle être considérée comme un art ?</h3>
+
+						<div class="topic__short">
+							<p>Tous les ans se tient un <em>concours de programmation[1]</em> en langage C qui s’appelle « The International Obfuscated C Code Contest ».</p>
+							<p>Comme son nom l’indique, le but est d’écrire un programme en C qui soit valide et fonctionnel bien qu’incompréhensible, souvent avec des astuces du langage très intelligentes et un tout petit nombre de caractères.</p>
+						</div>
+
+						<div class="topic__author column column--spaced">
+							<div class="topic__recap column column--centered">
+								<img class="author__picture author__picture--small" src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." />
+								<p class="author__name">Posté par <a href="user_details.html" title="Afficher le profil de..." class="author__link">Axel Cardinaels</a> Il y a 2 heures</p>
+							</div>
+						</div>
+					</article>
+				</li>
+
+				<li class="topic__item card item__wrap">
+					<a href="topic_details.html" title="Afficher le sujet ...">
+						<span class="hide">Afficher le sujet ...</span>
+					</a>
+
+					<article class="topic__article">
+						<h3 class="title--topic">Quel est le nouveau langage de programmation à la mode ?</h3>
+
+						<div class="topic__short">
+							<p>La langage à la mode en ce moment est Python, mais il n'est pas nouveau (1991).</p>
+						</div>
+
+						<div class="topic__author column column--spaced">
+							<div class="topic__recap column column--centered">
+								<img class="author__picture author__picture--small" src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." />
+								<p class="author__name">Posté par <a href="user_details.html" title="Afficher le profil de..." class="author__link">Aline Gillard</a> Il y a 1 jour</p>
+							</div>
+						</div>
+					</article>
+				</li>
+
+				<li class="topic__item card item__wrap">
+					<a href="topic_details.html" title="Afficher le sujet ...">
+						<span class="hide">Afficher le sujet ...</span>
+					</a>
+
+					<article class="topic__article">
+						<h3 class="title--topic">Je sais coder en Python. Quelle est l'étape suivante ?</h3>
+
+						<div class="topic__short">
+							<p>Pas si vite papillon</p>
+						</div>
+
+						<div class="topic__author column column--spaced">
+							<div class="topic__recap column column--centered">
+								<img class="author__picture author__picture--small" src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." />
+								<p class="author__name">Posté par <a href="user_details.html" title="Afficher le profil de..." class="author__link">Romain Dubois</a> Il y a 4 jours</p>
+							</div>
+						</div>
+					</article>
+				</li>
+
+				<li class="topic__item card item__wrap">
+					<a href="topic_details.html" title="Afficher le sujet ...">
+						<span class="hide">Afficher le sujet ...</span>
+					</a>
+
+					<article class="topic__article">
+						<h3 class="title--topic">La programmation peut-elle être considérée comme un art ?</h3>
+
+						<div class="topic__short">
+							<p>Tous les ans se tient un <em>concours de programmation[1]</em> en langage C qui s’appelle « The International Obfuscated C Code Contest ».</p>
+						</div>
+
+						<div class="topic__author column column--spaced">
+							<div class="topic__recap column column--centered">
+								<img class="author__picture author__picture--small" src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." />
+								<p class="author__name">Posté par <a href="user_details.html" title="Afficher le profil de..." class="author__link">Axel Cardinaels</a> Il y a 2 heures</p>
+							</div>
+						</div>
+					</article>
+				</li>
+			</ul>
+
+			<div class="pagination__container column column--centered">
+				<a href="#" class="pagination__btn pagination__arrow" title="Aller à la page précédente"><span><</span></a>
+				<ul class="pagination__list column column--centered">
+					<li class="pagination__item pagination__item--current">
+						<a href="#" class="pagination__link" title="Aller à la page 1 des sujets">1</a>
+					</li>
+
+					<li class="pagination__item">
+						<a href="#" class="pagination__link" title="Aller à la page 2 des sujets">2</a>
+					</li>
+
+					<li class="pagination__item">
+						<a href="#" class="pagination__link" title="Aller à la page 3 des sujets">3</a>
+					</li>
+				</ul>
+				<a href="#" class="pagination__btn pagination__arrow" title="Aller à la page précédente"><span>></span></a>
+			</div>
+
+		</section>
+	</main>
+
+  <footer class="section--centered">
+
+    <h2 class="hide">Pied de page</h2>
+
+    <p class="footer__disclaimer">© 2021 Copyright
+      <a href="https://github.com/duboisR/django-forum" target="_blank" title="Visiter le profil GitHub de Romain Dubois">duboisR</a> &
+      <a href="https://github.com/AxelCardinaels" target="_blank" title="Visiter le profil GitHub de Axel Cardinaels">AxelCardinaels</a>
+    </p>
+
+  </footer>
+
+  </body>
+  <script language="JavaScript" type="text/javascript" src="../ressources/vendors.js"></script>
+  <script language="JavaScript" type="text/javascript" src="../ressources/main_script.js"></script>
+  </html>

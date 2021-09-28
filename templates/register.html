@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+	<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Liste des sujets | Django Forum</title>
+	<link rel="stylesheet" type="text/css" href="../ressources/style.css"/>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,700&display=swap" rel="stylesheet">
+
+	<meta name="author" content="Axel Cardinaels"/>
+	<meta name="contact" content="hello@axel-cardinaels.be" />
+	<meta name="copyright" content="Copyright (c) 2021 Django Forum Tous droits réservés." />
+	<link rel="icon" type="image/png" href="../img/favicon/favicon.png" />
+	<meta name="description" content="Django Forum, un tutorial Django"/>
+
+	<!--FAVICON -->
+	<link rel="icon" href="/img/favicon/favicon.png">
+
+	<meta property="og:title" content="Django Forum" />
+	<meta property="og:image" content="../img/share-header.jpg" />
+	<meta property="og:description" content="Django Forum, description Sociale" />
+</head>
+<body>
+
+  <header class="header">
+		<div class="header__upper column column--spaced column--centered wrapper--main">
+	    <a href="index.html" title="Retourner à la page d’accueil" class="header__logo">Django Forum</a>
+
+      <form class="header__search">
+        <input type="text" class="search__input" placeholder="Rechercher un sujet ..."/>
+        <div class="search__submit">
+          <input type="submit" value="Rechercher">
+          <span class="submit__icon">
+            <img src="../img/search.svg" alt="Image rechercher" />
+          </span>
+        </div>
+      </form>
+	    <nav class="header__menu">
+	      <span class="hide">Menu de navigation</span>
+	      <ul class="menu__list column column--centered">
+
+	        <li>
+	          <a href="topics_list.html" title="Aller à la page des sujets">Sujets</a>
+	        </li>
+
+	        <li>
+	          <a href="register.html" title="Aller à la page d'inscription">Inscription</a>
+	        </li>
+
+	        <li>
+	          <a href="login.html" title="Aller à la page de connexion">Connexion</a>
+	        </li>
+
+	        <li>
+	          <a href="user_details.html" title="Afficher mon profil">
+	            <img src="https://www.bootdey.com/img/Content/avatar/avatar1.png" alt="Photo de Profil de ..." class="menu__profile"/>
+	          </a>
+	        </li>
+	      </ul>
+	    </nav>
+		</div>
+
+  </header>
+
+
+
+	<main class="page__content">
+    <section class="section wrapper--form wrapper--centered">
+			<div class="card card--form">
+				<div class="section--centered">
+					<h1 class="title--header">Inscription</h1>
+				</div>
+
+				<div class="form__container">
+					<form>
+
+						<div class="form__line">
+							<div class="form__part form__part--full">
+								<label class="form__label" for="title">Email</label>
+								<input type="email" class="input--classic input--text" placeholder="Quel est votre email" id="email" name="email"/>
+							</div>
+						</div>
+
+						<div class="form__line column column--spaced">
+							<div class="form__part form__part--half">
+								<label class="form__label" for="pwd">Mot de passe</label>
+								<input type="password" class="input--classic input--text" placeholder="Quel sera votre Mot de passe" id="pwd" name="pwd"/>
+							</div>
+
+							<div class="form__part form__part--half">
+								<label class="form__label" for="pwd_confirm">Confirmation</label>
+								<input type="password" class="input--classic input--text" placeholder="Confirmation du  mot de passe" id="pwd_confirm" name="pwd_confirm"/>
+							</div>
+						</div>
+
+
+						<div class="form__submit">
+							<input  type="submit" class="btn btn--primary btn--full" value="Créer mon compte" />
+						</div>
+					</form>
+				</div>
+			</div>
+    </section>
+	</main>
+
+  <footer class="section--centered">
+
+    <h2 class="hide">Pied de page</h2>
+
+    <p class="footer__disclaimer">© 2021 Copyright
+      <a href="https://github.com/duboisR/django-forum" target="_blank" title="Visiter le profil GitHub de Romain Dubois">duboisR</a> &
+      <a href="https://github.com/AxelCardinaels" target="_blank" title="Visiter le profil GitHub de Axel Cardinaels">AxelCardinaels</a>
+    </p>
+
+  </footer>
+
+  </body>
+  <script language="JavaScript" type="text/javascript" src="../ressources/vendors.js"></script>
+  <script language="JavaScript" type="text/javascript" src="../ressources/main_script.js"></script>
+  </html>
